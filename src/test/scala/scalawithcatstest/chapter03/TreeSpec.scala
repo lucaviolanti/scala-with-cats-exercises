@@ -1,9 +1,9 @@
-package scalawithcatstest
+package scalawithcatstest.chapter03
 
-import org.scalatest._
-import scalawithcats.Tree._
-import scalawithcats._
 import cats.syntax.functor._
+import org.scalatest._
+import scalawithcats.chapter03.Tree._
+import scalawithcats.chapter03._
 
 class TreeSpec extends FlatSpec {
   "A Tree" should "get doubled when mapping `double` over it" in {

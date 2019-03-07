@@ -1,4 +1,4 @@
-package scalawithcats
+package scalawithcats.chapter03
 
 sealed trait Tree[+A]
 
